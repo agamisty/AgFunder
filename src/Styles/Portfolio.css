@@ -1,0 +1,162 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Container */
+  .container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f8f8f2; 
+    padding: 20px 60px;
+  }
+  
+  /* Header */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 40px;
+  }
+  
+  .logo {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+  }
+  
+  .nav-links li {
+    font-size: 16px;
+    font-weight: bold;
+    color: #666; 
+    cursor: pointer;
+  }
+  
+  .nav-links li:hover {
+    color: black;
+  }
+  
+  /* Main Content */
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 40px;
+  }
+  
+  /* Left Section - Text */
+  .text-section {
+    width: 60%;
+  }
+  
+  .main-text {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.3;
+    color: black;
+  }
+  
+  .sub-text {
+    font-size: 16px;
+    margin-top: 10px;
+    color: black;
+  }
+  
+  .link {
+    color: #0000ff;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .link:hover {
+    color: #000080;
+  }
+  
+  /* Right Section - Portfolio */
+  .portfolio {
+    width: 30%;
+    text-align: right;
+  }
+  
+  .portfolio h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  
+
+  /* categories */
+  /* Main container */
+.cat-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 2px;
+  }
+  
+  /* Categories section */
+  .categories {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  /* Each row of categories */
+  .category-row {
+    display: flex;
+    gap: 10px;
+  }
+  
+  /* Category boxes */
+  .category-box {
+    background-color: #d9d9d9; 
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .category-box:hover {
+    background-color: #cfcfcf; 
+  }
+  
+  /* Search container */
+  .search-container {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    position: relative;
+    width: 400px;
+  }
+  
+  /* Search input */
+  .search-input {
+    border: none;
+    background: transparent;
+    outline: none;
+    width: 100%;
+    font-size: 14px;
+  }
+  
+  /* Search icon */
+  .search-icon {
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  

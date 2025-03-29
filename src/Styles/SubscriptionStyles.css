@@ -1,0 +1,50 @@
+.subscription-container {
+
+    padding: 40px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .subscription-box {
+    background-color: #d9d9d9;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .left-text h3 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .right-content {
+    max-width: 400px;
+  }
+  
+  .right-content p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+  }
+  
+  .input-group input {
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .input-group button {
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  

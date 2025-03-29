@@ -1,0 +1,30 @@
+.fund-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 50px;
+    height: 100vh;
+    box-sizing: border-box;
+  }
+  
+  .fund-text {
+    width: 50%;
+    font-size: 18px;
+    color: #000;
+    text-align: left;
+    line-height: 1.6;
+  }
+  
+  .fund-footer {
+    width: 100%;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .email {
+    font-weight: bold;
+    color: black;
+  }
+  

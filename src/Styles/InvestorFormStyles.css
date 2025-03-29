@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+   
+  }
+  
+  .form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .investor-form {
+    background-color: white;
+    padding: 40px;
+    width: 90%;
+  }
+  
+  label {
+    font-weight: bold;
+    display: block;
+    margin: 15px 0 5px;
+  }
+  
+  input,
+  select,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #e5e5e5;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  textarea {
+    height: 100px;
+  }
+  
+  .investor-type {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .investor-type button {
+    background-color: white;
+    border: 1px solid black;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .submit-btn {
+   
+    background-color: black;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    display: block;
+    width: 20%;
+    margin-top: 20px;
+  }
+  
