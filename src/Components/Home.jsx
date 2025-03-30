@@ -27,6 +27,8 @@ const AgFunder = () => {
             <li onClick={() => navigate("/about")}>About Us</li>
             <li onClick={() => navigate("/research")}>Research</li>
             <li onClick={() => navigate("/news")}>AgFunderNews</li>
+            <li onClick={() => navigate("/chatbox")}>Chatbox</li>
+
 
           
           </ul>

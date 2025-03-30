@@ -22,6 +22,7 @@ export default function InvestPage() {
             <li onClick={() => navigate("/about")}>About Us</li>
             <li onClick={() => navigate("/research")}>Research</li>
             <li onClick={() => navigate("/news")}>AgFunderNews</li>
+            
           </ul>
         </nav>
       </header>

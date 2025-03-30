@@ -22,6 +22,7 @@ export default function AboutPage() {
             <li onClick={() => navigate("/about")}>About Us</li>
             <li onClick={() => navigate("/research")}>Research</li>
             <li onClick={() => navigate("/news")}>AgFunderNews</li>
+            
           </ul>
         </nav>
       </header>
