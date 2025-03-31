@@ -7,6 +7,7 @@ import image4 from "./../images/image4.png"
 import image5 from "./../images/image5.png"
 import Subscription from './Subscription';
 import "./../Styles/Research.css";
+import Footer from "./Footer";
 
 
 
@@ -115,6 +116,7 @@ const ResearchPage = () => {
       </section>
 
         <Subscription></Subscription>
+        <Footer></Footer>
 
     </div>
 

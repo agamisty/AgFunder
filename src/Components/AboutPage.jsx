@@ -9,6 +9,7 @@ import Subscription from './Subscription';
 import Footer from './Footer';
 
 
+
 export default function AboutPage() {
     const navigate = useNavigate();
   return (
@@ -97,8 +98,9 @@ export default function AboutPage() {
     <AboutCircle></AboutCircle>
 
     <Subscription></Subscription>
-
     <Footer></Footer>
+
+   
 
       
     </div>

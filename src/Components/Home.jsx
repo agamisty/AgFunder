@@ -11,6 +11,7 @@ import kenny from './../images/kenny.png';
 import yubi from './../images/yubi.png';
 import climate from './../images/climate.png';
 import global from './../images/global.png';
+import Footer from "./Footer";
 
 const AgFunder = () => {
 
@@ -188,23 +189,14 @@ const AgFunder = () => {
         </div>
       </div>
 
-      {/* Green Separator */}
-      <div className="green-bar"></div>
+   
 
-      {/* Second Subscription Box */}
-      <div className="agfunder-container">
-        <h3>AgFunder</h3>
-        <p>Feel free not to subscribe</p>
-        <div className="input-group">
-          <input type="email" placeholder="Enter your Email" />
-          <button>SUBSCRIBE</button>
-        </div>
-      </div>
+      
     </div>
 
   
-
-      
+        <Footer></Footer>
+              
       
     </div>
   );

@@ -6,6 +6,7 @@ import InvestFundInfo from './InvestFundInfo';
 import InvestorForm from './InvestorForm';
 import InvestCircle from './InvestCircle';
 import Subscription from './Subscription';
+import Footer from './Footer';
 
 
 export default function InvestPage() {
@@ -35,7 +36,7 @@ export default function InvestPage() {
       <Subscription></Subscription>
 
 
-
+      <Footer></Footer>
       
       
     </div>

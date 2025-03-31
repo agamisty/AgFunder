@@ -5,6 +5,7 @@ import { useNavigate } from "react-router-dom";
 import GridLayoutPortfolio from "./../Components/GridLayoutPortfolio.jsx";
 import Subscription from "./Subscription.jsx";
 import PortfolioGrid from "./PortfolioGrid.jsx";
+import Footer from "./Footer.jsx"
 
 
 
@@ -96,6 +97,8 @@ const Portfolio = () => {
 
     {/* subscription */}
     <Subscription></Subscription>
+
+    <Footer></Footer>
 
       
     </div>
