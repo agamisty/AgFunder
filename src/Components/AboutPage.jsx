@@ -6,6 +6,7 @@ import "./../Styles/AboutStyles.css"
 import AboutTeamCards from './AboutTeamCards';
 import AboutCircle from './AboutCircle';
 import Subscription from './Subscription';
+import Footer from './Footer';
 
 
 export default function AboutPage() {
@@ -96,6 +97,8 @@ export default function AboutPage() {
     <AboutCircle></AboutCircle>
 
     <Subscription></Subscription>
+
+    <Footer></Footer>
 
       
     </div>

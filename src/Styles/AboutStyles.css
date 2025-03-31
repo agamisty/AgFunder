@@ -1,19 +1,30 @@
 General Reset
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-  }
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden; /* Prevents horizontal scrolling */
+}
   
-  /* Container */
   .container {
     width: 100%;
     min-height: 100vh;
-    background-color: #f8f8f2;
-  
-    padding: 20px 60px;
-  }
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+.footer {
+  width: 100%;
+}
+
+.marquee-container {
+  width: 100%;
+}
+
   
   /* Header */
   .header {
@@ -148,6 +159,10 @@ General Reset
   }
   
   
+
+
+
+ 
 
 
 
