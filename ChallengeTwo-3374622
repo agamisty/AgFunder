@@ -1,0 +1,23 @@
+class SearchSuggestionSystem {
+    constructor(products) {
+        // Sort the products lexicographically so we can easily pick top 3 suggestions
+        this.products = products.sort();
+    }
+
+    getSuggestions(searchWord) {
+        const result = [];
+        let prefix = "";
+
+        for (let char of searchWord) {
+            prefix += char;
+
+            // Filter products that start with the current prefix
+            const matches = this.products.filter(product => product.startsWith(prefix));
+
+            // Push only the first 3 matching products
+            result.push(matches.slice(0, 3));
+        }
+
+        return result;
+    }
+}
